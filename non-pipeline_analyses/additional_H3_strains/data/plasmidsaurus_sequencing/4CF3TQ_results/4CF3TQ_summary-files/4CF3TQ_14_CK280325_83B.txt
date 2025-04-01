@@ -1,0 +1,9 @@
+       1-mer (%)  2-mer (%)  3-mer (%)
+moles       96.7        3.3        0.0
+mass        93.6        6.4        0.0
+
+
+*************************
+
+
+E. coli genomic contamination: 0.0%
