@@ -1,0 +1,100 @@
+# === Analysis configuration file ======================================================
+
+
+# --- Configuration for `seqneut-pipeline` ---------------------------------------------
+
+seqneut-pipeline: seqneut-pipeline
+
+docs: docs
+
+description: |
+  # Sequencing-based neutralization assays of 2023-2024 human serum samples versus H3N2 influenza libraries
+
+  The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024](https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024)
+
+
+viral_libraries:
+  # The following originally designed barcodes were dropped from `H1N1_library` as
+  # they were missing in library: AAAACAGTATAGAAGA, AATCTCCTCACGCAGC, ATGCAATATTAAGGAA
+  H3N2_library: data/viral_libraries/2023_H3N2_Kikawa.csv
+  H1N1_library: data/viral_libraries/pdmH1N1_lib2023_loes.csv
+
+viral_strain_plot_order: data/H3N2library_2023-2024_strain_order.csv
+
+neut_standard_sets:
+  loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
+
+illumina_barcode_parser_params:
+  upstream: CCTACAATGTCGGATTTGTATTTAATAG
+  downstream: ''
+  minq: 20
+  upstream_mismatch: 4
+  bc_orientation: R2
+
+default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
+  avg_barcode_counts_per_well: 500
+  min_neut_standard_frac_per_well: 0.005
+  no_serum_per_viral_barcode_filters:
+    min_frac: 0.0001
+    max_fold_change: 4
+    max_wells: 2
+  per_neut_standard_barcode_filters:
+    min_frac: 0.005
+    max_fold_change: 4
+    max_wells: 2
+  min_neut_standard_count_per_well: 1000
+  min_no_serum_count_per_viral_barcode_well: 100
+  max_frac_infectivity_per_viral_barcode_well: 3
+  min_dilutions_per_barcode_serum_replicate: 6
+
+default_process_plate_curvefit_params: &default_process_plate_curvefit_params
+  frac_infectivity_ceiling: 1
+  fixtop: [0.6, 1] 
+  fixbottom: 0
+  fixslope: [0.8, 10]
+
+default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
+  max_frac_infectivity_at_least: 0.0  # Allow 'completely neutralized' straight lines to be fit
+  goodness_of_fit:  # EITHER R2 must be >= min_R2 or RMSD must be <= max_RMSD
+    min_R2: 0.5
+    max_RMSD: 0.15  # you may be able to increase this to more like 0.1
+  serum_replicates_ignore_curvefit_qc: []
+  barcode_serum_replicates_ignore_curvefit_qc: []
+
+default_serum_titer_as: midpoint
+
+default_serum_qc_thresholds: &default_serum_qc_thresholds
+  min_replicates: 2
+  max_fold_change_from_median: 6
+  viruses_ignore_qc: []
+
+sera_override_defaults: {}
+
+plates:
+
+  EXAMPLE:
+    group: AusVaccineCohort
+    date: 2024-09-25
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-25_plate_mapping_file39.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+
+
+miscellaneous_plates:
+
+    EXAMPLE:
+      date: 2024-01-11
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/H3N2library_initialPool_samples.csv

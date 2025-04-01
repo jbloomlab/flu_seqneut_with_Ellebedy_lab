@@ -1,0 +1,17 @@
+name: library_design
+channels:
+  - bioconda
+  - conda-forge
+  - schrodinger
+
+dependencies:
+  - python
+  - jupyterlab
+  - pip
+  - pandas
+  - vl-convert-python
+  - altair=5.2
+  - pip:
+    - scipy
+    - numpy
+    - biopython
