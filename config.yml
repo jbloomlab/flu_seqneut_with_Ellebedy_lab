@@ -14,12 +14,12 @@ description: |
 
 
 viral_libraries:
-  # The following originally designed barcodes were dropped from `H1N1_library` as
-  # they were missing in library: AAAACAGTATAGAAGA, AATCTCCTCACGCAGC, ATGCAATATTAAGGAA
-  H3N2_library: data/viral_libraries/2023_H3N2_Kikawa.csv
-  H1N1_library: data/viral_libraries/pdmH1N1_lib2023_loes.csv
+  # The viral library is comprised of the 78 H3 strains in Kikawa et al 2025 plus additional circulating H3 strains from 2023 and strains from pdmH1N1_lib2023_loes.csv
+  
+  H3_H1_ellebedy_library: data/viral_libraries/H3_H1_ellebedy_library.csv
+  
 
-viral_strain_plot_order: data/H3N2library_2023-2024_strain_order.csv
+viral_strain_plot_order: data/H3_H1_ellebedy_library_strain_order.csv
 
 neut_standard_sets:
   loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
@@ -70,31 +70,12 @@ default_serum_qc_thresholds: &default_serum_qc_thresholds
 
 sera_override_defaults: {}
 
-plates:
-
-  EXAMPLE:
-    group: AusVaccineCohort
-    date: 2024-09-25
-    viral_library: H3N2_library
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2024-09-25_plate_mapping_file39.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: ATCGAT # Fwd2
-      upstream2_mismatch: 1
-
-
+plates: {}
 
 miscellaneous_plates:
 
-    EXAMPLE:
-      date: 2024-01-11
-      viral_library: H3N2_library
+    240111_initial_H3H1_ellebedy_library::
+      date: 2024-04-20
+      viral_library: H3_H1_ellebedy_library
       neut_standard_set: loes2023
-      samples_csv: data/miscellaneous_plates/H3N2library_initialPool_samples.csv
+      samples_csv: data/miscellaneous_plates/H3H1_ellebedy_library_initialPool_samples.csv
