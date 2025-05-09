@@ -8,9 +8,9 @@ seqneut-pipeline: seqneut-pipeline
 docs: docs
 
 description: |
-  # Sequencing-based neutralization assays of 2023-2024 human serum samples versus H3N2 influenza libraries
+  # Sequencing-based neutralization assays of human serum samples from the Ellebedy lab with individuals vaccinated either with the 2022-2023 Fluarix egg-based vaccine or with the 2022-2023 mRNA-1010 vaccine, using a ~100 variant library of H3N2 and H1N1 influenza variants. 
 
-  The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024](https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024)
+  The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_with_Ellebedy_lab](https://github.com/jbloomlab/flu_seqneut_with_Ellebedy_lab)
 
 
 viral_libraries:
@@ -70,12 +70,38 @@ default_serum_qc_thresholds: &default_serum_qc_thresholds
 
 sera_override_defaults: {}
 
-plates: {}
+plates:
+
+  plate1:
+    group: EllebedyVaccineCohort
+    date: 2025-05-09
+    viral_library: H3_H1_ellebedy_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-05-08_plate_mapping_file1
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
 
 miscellaneous_plates:
 
-    240111_initial_H3H1_ellebedy_library::
-      date: 2024-04-20
+    20250501_initial_H3H1_ellebedy_library:
+      date: 2025-05-01
       viral_library: H3_H1_ellebedy_library
       neut_standard_set: loes2023
       samples_csv: data/miscellaneous_plates/H3H1_ellebedy_library_initialPool_samples.csv
+
+    20250509_repool_H3H1_ellebedy_library:
+      date: 2025-05-09
+      viral_library: H3_H1_ellebedy_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2025-05-08_H3H1_ellebedy_library_repool_samples.csv
+      illumina_barcode_parser_params:
+          upstream2: CAGTTG # Fwd4
+          upstream2_mismatch: 1
