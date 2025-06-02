@@ -1,0 +1,27 @@
+wells: {}
+barcodes:
+  CATAATCTATTGAAGC: min_neut_standard_frac_per_well
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CCCGCTAACCCTGTCT: min_neut_standard_frac_per_well
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CCTATAAGGCCTTACG: min_neut_standard_frac_per_well
+  CTCCAATAGGAGACGA: min_neut_standard_frac_per_well
+  TATGATGTCAGATAAA: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCCGCCACTATAACAT: min_neut_standard_frac_per_well
+  TTGAAAGCCACAACAC: min_neut_standard_frac_per_well
+barcode_wells:
+  TACGAAAATCAAGAGC D8: max_frac_infectivity_per_viral_barcode_well
+  CCAATCATGTATCACA D11: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC F1: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT F4: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC F4: max_frac_infectivity_per_viral_barcode_well
+  CCGCAATGACAATTTG F9: max_frac_infectivity_per_viral_barcode_well
+  TCCCGAACTGAACGCG F11: max_frac_infectivity_per_viral_barcode_well
+  GACAGAAACAAAATTA G6: max_frac_infectivity_per_viral_barcode_well
+  AAGTGGTAGGATAAAA G11: max_frac_infectivity_per_viral_barcode_well
+  CGTACAGTGTAATCGA G12: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  ATCTAATAATTATGGT Fluarix_397-020_d0: goodness_of_fit
+  AAACCTCGTGAGGACT mRNA_397-028_d181: goodness_of_fit
+serum_replicates: {}
