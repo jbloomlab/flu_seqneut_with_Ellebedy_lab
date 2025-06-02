@@ -90,6 +90,74 @@ plates:
       upstream2: TGACGC # Fwd3
       upstream2_mismatch: 1
 
+  plate2:
+    group: EllebedyVaccineCohort
+    date: 2025-05-29
+    viral_library: H3_H1_ellebedy_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-05-29_plate_mapping_file2.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1  
+
+  plate3:
+    group: EllebedyVaccineCohort
+    date: 2025-05-29
+    viral_library: H3_H1_ellebedy_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-05-29_plate_mapping_file3.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1  
+
+  plate4:
+    group: EllebedyVaccineCohort
+    date: 2025-05-29
+    viral_library: H3_H1_ellebedy_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-05-29_plate_mapping_file4.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1 
+
+  plate5:
+    group: EllebedyVaccineCohort
+    date: 2025-05-29
+    viral_library: H3_H1_ellebedy_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-05-29_plate_mapping_file5.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1 
+    
 miscellaneous_plates:
 
     20250501_initial_H3H1_ellebedy_library:
