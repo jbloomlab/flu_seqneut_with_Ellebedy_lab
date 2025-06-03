@@ -3,7 +3,7 @@
 #SBATCH -c 32
 snakemake \
     --use-conda \
-    -j 32 \
+    -j 16 \
     --rerun-incomplete \
     --software-deployment-method conda \
     --keep-going
