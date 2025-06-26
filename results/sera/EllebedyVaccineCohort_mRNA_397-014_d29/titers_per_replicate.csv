@@ -1,5 +1,4 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
-EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/2570/2019_H1N1,plate2-CAAAAATCTAATACTT,6876,interpolated,midpoint,9250,6876,0.8446,0,1.254
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Pennsylvania/51/2023_H1N1,plate2-ACCAAAGCTGAATGGA,4075,interpolated,midpoint,4075,4075,1,0,2.397
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Pennsylvania/51/2023_H1N1,plate2-ACAGTCGCAGGGAATA,3812,interpolated,midpoint,4176,3812,0.9053,0,2.307
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Wisconsin/588/2019_H1N1,plate2-GAAGAAACTATAACCA,7633,interpolated,midpoint,9609,7633,0.7963,0,2.273
@@ -168,9 +167,9 @@ EllebedyVaccineCohort,mRNA_397-014_d29,A/Saskatchewan/SKFLU317847/2023_H3N2,plat
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Romania/543634/2022_H3N2,plate2-TTTACTCGACTAACCG,5809,interpolated,midpoint,1.377e+04,5809,0.6,0,1.865
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Romania/543634/2022_H3N2,plate2-CTTCATCTCATTTAAA,5109,interpolated,midpoint,5364,5109,0.9161,0,3.776
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Romania/543634/2022_H3N2,plate2-CACGTTAGTGAGACTT,7060,interpolated,midpoint,7060,7060,1,0,10
-EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_R142K_H1N1,plate2-AAGTTAAGAGAAAGTT,7832,interpolated,midpoint,7832,7832,1,0,3.541
-EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_R142K_H1N1,plate2-AATCCGAAATTTATTC,7845,interpolated,midpoint,7845,7845,1,0,3.845
-EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_R142K_H1N1,plate2-AGAGCTAAAAAGAGGA,7513,interpolated,midpoint,7816,7513,0.9485,0,2.746
+EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AAGTTAAGAGAAAGTT,7832,interpolated,midpoint,7832,7832,1,0,3.541
+EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AATCCGAAATTTATTC,7845,interpolated,midpoint,7845,7845,1,0,3.845
+EllebedyVaccineCohort,mRNA_397-014_d29,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AGAGCTAAAAAGAGGA,7513,interpolated,midpoint,7816,7513,0.9485,0,2.746
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Netherlands/01760/2023_H3N2,plate2-AATCCGATAAGAGCTA,5958,interpolated,midpoint,8645,5958,0.6212,0,3.808
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Netherlands/01760/2023_H3N2,plate2-AACAAGGCCAACATTT,5431,interpolated,midpoint,7392,5431,0.6564,0,3.77
 EllebedyVaccineCohort,mRNA_397-014_d29,A/Netherlands/01760/2023_H3N2,plate2-CTGTGAAAAAAAATAC,1.008e+04,interpolated,midpoint,1.035e+04,1.008e+04,0.9809,0,1.5

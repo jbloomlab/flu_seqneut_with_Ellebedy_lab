@@ -146,7 +146,6 @@ EllebedyVaccineCohort,mRNA_397-008_d181,A/Sydney/710/2023_H3N2,plate5-TGATCCGCAA
 EllebedyVaccineCohort,mRNA_397-008_d181,A/SouthAfrica/K056872/2023_H3N2,plate5-AAGAAAACGGAAAGAA,115.8,interpolated,midpoint,117,115.8,0.9532,0,10
 EllebedyVaccineCohort,mRNA_397-008_d181,A/SouthAfrica/K056872/2023_H3N2,plate5-GCTGAAGACAGTATTA,77.05,interpolated,midpoint,79.27,77.05,0.9095,0,7.027
 EllebedyVaccineCohort,mRNA_397-008_d181,A/SouthAfrica/K056872/2023_H3N2,plate5-ATCGAAAAAACTGCAA,131.9,interpolated,midpoint,132.2,131.9,0.9878,0,10
-EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/2570/2019_H1N1,plate5-CAAAAATCTAATACTT,847.9,interpolated,midpoint,893.1,847.9,0.9443,0,2.273
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Jeju/1047/2023_H3N2,plate5-TGAATTGCGTGATGGG,246.9,interpolated,midpoint,272.6,246.9,0.8697,0,3.05
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Jeju/1047/2023_H3N2,plate5-AAATTTTTCTTTAGAC,363.4,interpolated,midpoint,431.2,363.4,0.8566,0,1.974
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Jeju/1047/2023_H3N2,plate5-AATGGTCGAGCCATTC,123.8,interpolated,midpoint,132.9,123.8,0.7463,0,10
@@ -257,9 +256,9 @@ EllebedyVaccineCohort,mRNA_397-008_d181,A/Singapore/INFIMH-16-0019/2016X-307A_H3
 EllebedyVaccineCohort,mRNA_397-008_d181,A/HongKong/2671/2019_H3N2,plate5-TTCATCAAGTTGGTGC,1.73e+04,lower,midpoint,1.73e+04,1.73e+04,1,0,4.639
 EllebedyVaccineCohort,mRNA_397-008_d181,A/HongKong/2671/2019_H3N2,plate5-CGAAAACATTACAAAT,1.73e+04,lower,midpoint,1.73e+04,1.73e+04,0.9967,0,5.916
 EllebedyVaccineCohort,mRNA_397-008_d181,A/HongKong/2671/2019_H3N2,plate5-CGGGAATCTCCCATAC,1.73e+04,lower,midpoint,1.73e+04,1.73e+04,1,0,10
-EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_R142K_H1N1,plate5-AAGTTAAGAGAAAGTT,1259,interpolated,midpoint,1324,1259,0.9033,0,4.275
-EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_R142K_H1N1,plate5-AATCCGAAATTTATTC,996.9,interpolated,midpoint,1009,996.9,0.9413,0,10
-EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_R142K_H1N1,plate5-AGAGCTAAAAAGAGGA,1305,interpolated,midpoint,1382,1305,0.9093,0,3.469
+EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AAGTTAAGAGAAAGTT,1259,interpolated,midpoint,1324,1259,0.9033,0,4.275
+EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AATCCGAAATTTATTC,996.9,interpolated,midpoint,1009,996.9,0.9413,0,10
+EllebedyVaccineCohort,mRNA_397-008_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AGAGCTAAAAAGAGGA,1305,interpolated,midpoint,1382,1305,0.9093,0,3.469
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Kansas/14/2017_H3N2,plate5-GCAACGAGGTGTAACC,337.5,interpolated,midpoint,349.8,337.5,0.8501,0,10
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Kansas/14/2017_H3N2,plate5-AACCACCCCAGAGATG,526.8,interpolated,midpoint,641.2,526.8,0.783,0,2.897
 EllebedyVaccineCohort,mRNA_397-008_d181,A/Kansas/14/2017_H3N2,plate5-TATACTCACGGAGGAT,397.4,interpolated,midpoint,403.4,397.4,0.9308,0,10

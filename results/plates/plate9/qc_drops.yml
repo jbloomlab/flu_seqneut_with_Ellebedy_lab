@@ -1,0 +1,79 @@
+wells: {}
+barcodes:
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CCTATAAGGCCTTACG: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCCGCCACTATAACAT: min_neut_standard_frac_per_well
+  TTGAAAGCCACAACAC: min_neut_standard_frac_per_well
+barcode_wells:
+  ATTAGATTATAACGTA A10: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC B1: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA B9: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG C8: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA C8: max_frac_infectivity_per_viral_barcode_well
+  AAACCTCGTGAGGACT C8: max_frac_infectivity_per_viral_barcode_well
+  ATTAGATTATAACGTA C9: max_frac_infectivity_per_viral_barcode_well
+  ATACTCTGTGCTTTAA C9: max_frac_infectivity_per_viral_barcode_well
+  TACCTAACGTCCAACT C9: max_frac_infectivity_per_viral_barcode_well
+  CGTACAGTGTAATCGA C10: max_frac_infectivity_per_viral_barcode_well
+  TTACATTTTTAGAATT D5: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC D10: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC D12: max_frac_infectivity_per_viral_barcode_well
+  TTACATTTTTAGAATT E3: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC E4: max_frac_infectivity_per_viral_barcode_well
+  CGGGAATCTCCCATAC E5: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT E5: max_frac_infectivity_per_viral_barcode_well
+  CGATCTTTACGAAAAA E10: max_frac_infectivity_per_viral_barcode_well
+  ACGCAAATAGACCGAA E10: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA E10: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC F1: max_frac_infectivity_per_viral_barcode_well
+  AACAATTAATTTTTCA F8: max_frac_infectivity_per_viral_barcode_well
+  AAGCTAATCGTAGTCC G2: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G2: max_frac_infectivity_per_viral_barcode_well
+  TGCCGATCCAATTGAT G4: max_frac_infectivity_per_viral_barcode_well
+  CGGGAATCTCCCATAC G7: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC G8: max_frac_infectivity_per_viral_barcode_well
+  TGAGTTCATAGCTCCA G10: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AATCTTTCCAATCTTG Fluarix_397-007_d0: goodness_of_fit
+  TGTTGTAATCTGAATA Fluarix_397-007_d0: goodness_of_fit
+  AATGACAGCTGTCTAG Fluarix_397-007_d121: goodness_of_fit
+  CGATCTTTACGAAAAA Fluarix_397-007_d121: goodness_of_fit
+  AACCGTTAATAAATAA Fluarix_397-024_d0: goodness_of_fit
+  GACCTCCTGGGCACGC Fluarix_397-024_d0: goodness_of_fit
+  GCATTATAATCTTGTG Fluarix_397-024_d0: goodness_of_fit
+  TCGATGGAAGACATCT Fluarix_397-024_d0: goodness_of_fit
+  TCTTAACTACCCGATG Fluarix_397-024_d0: goodness_of_fit
+  ATACTCTGTGCTTTAA Fluarix_397-024_d29: goodness_of_fit
+  AAACCTCGTGAGGACT mRNA-1010_397-006_d0: goodness_of_fit
+  AACAATTAATTTTTCA mRNA-1010_397-006_d0: goodness_of_fit
+  AGATCATAAGCAATAA mRNA-1010_397-006_d0: goodness_of_fit
+  AGTTATGTAAAACGTG mRNA-1010_397-006_d0: goodness_of_fit
+  AGTTGACAGAAATAGG mRNA-1010_397-006_d0: goodness_of_fit
+  ATATGTGCTAACAAAA mRNA-1010_397-006_d0: goodness_of_fit
+  ATTAGATTATAACGTA mRNA-1010_397-006_d0: goodness_of_fit
+  CCCGCTAACCCTGTCT mRNA-1010_397-006_d0: goodness_of_fit
+  GAAGTAACAAACTATG mRNA-1010_397-006_d0: goodness_of_fit
+  GACCAAAAAGCAGTAT mRNA-1010_397-006_d0: goodness_of_fit
+  TACTGAGACACTTAAA mRNA-1010_397-006_d0: goodness_of_fit
+  TAGCTGGGCAAAGGCT mRNA-1010_397-006_d0: goodness_of_fit
+  TATACTCACGGAGGAT mRNA-1010_397-006_d0: goodness_of_fit
+  TCCTTTAACTAATCGA mRNA-1010_397-006_d0: goodness_of_fit
+  TTGCTAGTCTACCTGA mRNA-1010_397-006_d181: goodness_of_fit
+  AAAGATAAATTCAAAA mRNA-1010_397-025_d0: goodness_of_fit
+  AATCAAACATCCAGCG mRNA-1010_397-025_d0: goodness_of_fit
+  AATCCGAAATTTATTC mRNA-1010_397-025_d0: goodness_of_fit
+  AATCTTTCCAATCTTG mRNA-1010_397-025_d0: goodness_of_fit
+  AGTTATGTAAAACGTG mRNA-1010_397-025_d0: goodness_of_fit
+  AGTTGACAGAAATAGG mRNA-1010_397-025_d0: goodness_of_fit
+  ATCGAAAAAACTGCAA mRNA-1010_397-025_d0: goodness_of_fit
+  GGGTGCAATGAATCCA mRNA-1010_397-025_d0: goodness_of_fit
+  GTAAAAATTTACAAAT mRNA-1010_397-025_d0: goodness_of_fit
+  TAAAAAGCCTCCATGA mRNA-1010_397-025_d0: goodness_of_fit
+  TACCTAACGTCCAACT mRNA-1010_397-025_d0: goodness_of_fit
+  TATCGCAATATGATAA mRNA-1010_397-025_d0: goodness_of_fit
+  TCCAAACAGCGTTAAA mRNA-1010_397-025_d0: goodness_of_fit
+  TCGATTACTAGCCGGA mRNA-1010_397-025_d0: goodness_of_fit
+  TCGCGGTAGATTTGCG mRNA-1010_397-025_d0: goodness_of_fit
+serum_replicates: {}

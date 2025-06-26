@@ -1,0 +1,55 @@
+wells: {}
+barcodes:
+  AAAGTAGCAGAGGATT: min_neut_standard_frac_per_well
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CCCGCTAACCCTGTCT: min_neut_standard_frac_per_well
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CCTATAAGGCCTTACG: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCCGCCACTATAACAT: min_neut_standard_frac_per_well
+  TTGAAAGCCACAACAC: min_neut_standard_frac_per_well
+barcode_wells:
+  AGGTGCGAGCCATCAG C6: max_frac_infectivity_per_viral_barcode_well
+  CTCCAATAGGAGACGA C7: max_frac_infectivity_per_viral_barcode_well
+  AGTGCTATAAAAATCA D4: max_frac_infectivity_per_viral_barcode_well
+  TTACATTTTTAGAATT D6: max_frac_infectivity_per_viral_barcode_well
+  CGAAAACATTACAAAT E2: max_frac_infectivity_per_viral_barcode_well
+  CGTTAACGGCCTATCC E2: max_frac_infectivity_per_viral_barcode_well
+  CAAAAGCAGCACGATA E3: max_frac_infectivity_per_viral_barcode_well
+  CAGTGCCATCCATCCA F5: max_frac_infectivity_per_viral_barcode_well
+  TGGCTAGCGCACACCA F5: max_frac_infectivity_per_viral_barcode_well
+  TTATGTTTTAATGGTA F9: max_frac_infectivity_per_viral_barcode_well
+  CTCCAATAGGAGACGA F10: max_frac_infectivity_per_viral_barcode_well
+  TACCAATGTCATTTGA F11: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG G1: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AATTACGCATAGGCCA Fluarix_397-011_d0: goodness_of_fit
+  ATCGAAAAAACTGCAA Fluarix_397-011_d0: goodness_of_fit
+  CACGTTAGTGAGACTT Fluarix_397-011_d0: goodness_of_fit
+  CATAATGCACAAACGC Fluarix_397-011_d0: goodness_of_fit
+  CCGCAATGACAATTTG Fluarix_397-011_d0: goodness_of_fit
+  CGATCTTTACGAAAAA Fluarix_397-011_d0: goodness_of_fit
+  CTCCAATAGGAGACGA Fluarix_397-011_d0: goodness_of_fit
+  CTTCATCTCATTTAAA Fluarix_397-011_d0: goodness_of_fit
+  TATACTCACGGAGGAT Fluarix_397-011_d0: goodness_of_fit
+  TGCCGATCCAATTGAT Fluarix_397-011_d0: goodness_of_fit
+  TTCTCGGACAGTATCA Fluarix_397-011_d0: goodness_of_fit
+  AAGAAATTATGGCAGG Fluarix_397-011_d121: goodness_of_fit
+  CTCATTACAGAAATTG Fluarix_397-011_d121: goodness_of_fit
+  GGGTGCAATGAATCCA Fluarix_397-011_d121: goodness_of_fit
+  GTAATTCGCATGCGGA Fluarix_397-011_d121: goodness_of_fit
+  TTAGCTACTAACCCGT Fluarix_397-011_d121: goodness_of_fit
+  AGTGCTATAAAAATCA Fluarix_397-011_d29: goodness_of_fit
+  ATGCGTCTAAACATAG Fluarix_397-011_d29: goodness_of_fit
+  GCTGAAGACAGTATTA Fluarix_397-011_d29: goodness_of_fit
+  TTTACTCGACTAACCG Fluarix_397-011_d29: goodness_of_fit
+  CGATCTTTACGAAAAA mRNA-1010_397-015_d181: goodness_of_fit
+  CGGCTAAAGTCTATAG mRNA-1010_397-015_d181: goodness_of_fit
+  GCTAATTCCAAAAGCG mRNA-1010_397-015_d181: goodness_of_fit
+  AATCCGGTTAACCCCG mRNA-1010_397-030_d0: goodness_of_fit
+  AATCTTTCCAATCTTG mRNA-1010_397-030_d0: goodness_of_fit
+  AGCATGAGCTTGTCAT mRNA-1010_397-030_d0: goodness_of_fit
+  CCAGAGACACGCTAGG mRNA-1010_397-030_d0: goodness_of_fit
+  CTCATTACAGAAATTG mRNA-1010_397-030_d181: goodness_of_fit
+  GATCTGCTTGGAATGT mRNA-1010_397-030_d181: goodness_of_fit
+serum_replicates: {}

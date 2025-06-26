@@ -1,5 +1,4 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
-EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/2570/2019_H1N1,plate2-CAAAAATCTAATACTT,2272,interpolated,midpoint,2707,2272,0.9031,0,1.231
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Pennsylvania/51/2023_H1N1,plate2-ACCAAAGCTGAATGGA,653.2,interpolated,midpoint,653.2,653.2,1,0,2.782
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Pennsylvania/51/2023_H1N1,plate2-ACAGTCGCAGGGAATA,600.9,interpolated,midpoint,600.9,600.9,1,0,5.195
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Brisbane/02/2018_H1N1,plate2-TAATAAGCCAGCAAGA,4765,interpolated,midpoint,7570,4765,0.6,0,3.476
@@ -70,9 +69,9 @@ EllebedyVaccineCohort,mRNA_397-014_d181,A/Saskatchewan/SKFLU317847/2023_H3N2,pla
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Thailand/8/2022_H3N2,plate2-CATAAAAGACTGTATA,3722,interpolated,midpoint,3722,3722,1,0,2.078
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Thailand/8/2022_H3N2,plate2-CGTACGTATGTCCCAG,2312,interpolated,midpoint,3418,2312,0.7785,0,1.497
 EllebedyVaccineCohort,mRNA_397-014_d181,A/Thailand/8/2022_H3N2,plate2-AGACCATCGCACCCAA,3703,interpolated,midpoint,3703,3703,1,0,1.089
-EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_R142K_H1N1,plate2-AAGTTAAGAGAAAGTT,2778,interpolated,midpoint,2778,2778,1,0,2.676
-EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_R142K_H1N1,plate2-AGAGCTAAAAAGAGGA,2447,interpolated,midpoint,2447,2447,1,0,3.508
-EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_R142K_H1N1,plate2-AATCCGAAATTTATTC,5731,interpolated,midpoint,5731,5731,1,0,2.005
+EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AAGTTAAGAGAAAGTT,2778,interpolated,midpoint,2778,2778,1,0,2.676
+EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AGAGCTAAAAAGAGGA,2447,interpolated,midpoint,2447,2447,1,0,3.508
+EllebedyVaccineCohort,mRNA_397-014_d181,A/Victoria/4897/2022_IVR-238_H1N1,plate2-AATCCGAAATTTATTC,5731,interpolated,midpoint,5731,5731,1,0,2.005
 EllebedyVaccineCohort,mRNA_397-014_d181,A/SOUTHAFRICA/R07876/202023_H3N2,plate2-CTACTAGAGCAGCGAG,601.1,interpolated,midpoint,618,601.1,0.8791,0,10
 EllebedyVaccineCohort,mRNA_397-014_d181,A/SOUTHAFRICA/R07876/202023_H3N2,plate2-AGACTGTACGCGACAG,1131,interpolated,midpoint,1157,1131,0.9673,0,3.022
 EllebedyVaccineCohort,mRNA_397-014_d181,A/SOUTHAFRICA/R07876/202023_H3N2,plate2-TGATTCGTCAATTCAT,1782,interpolated,midpoint,2120,1782,0.848,0,2.083

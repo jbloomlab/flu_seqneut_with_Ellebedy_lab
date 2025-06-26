@@ -32,7 +32,6 @@ EllebedyVaccineCohort,Fluarix_397-018_d121,A/Maldives/852/2023_H3N2,plate5-GGGTG
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Brisbane/02/2018_H1N1,plate5-TAATAAGCCAGCAAGA,7012,interpolated,midpoint,7012,7012,1,0,1.359
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Brisbane/02/2018_H1N1,plate5-TTGGGCACTAAATTAA,4303,interpolated,midpoint,6035,4303,0.7924,0,1.587
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Brisbane/02/2018_H1N1,plate5-ATCCGATTTAAAGGCA,6137,interpolated,midpoint,8566,6137,0.8004,0,1.528
-EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/2570/2019_H1N1,plate5-CAAAAATCTAATACTT,2701,interpolated,midpoint,2701,2701,1,0,1.413
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Wisconsin/588/2019_H1N1,plate5-GAAGAAACTATAACCA,847.6,interpolated,midpoint,919.7,847.6,0.7209,0,10
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Wisconsin/588/2019_H1N1,plate5-TATATTAGTAACATAA,1474,interpolated,midpoint,2034,1474,0.819,0,1.397
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/Wisconsin/588/2019_H1N1,plate5-AGTCCTATCCTCAAAT,2651,interpolated,midpoint,2651,2651,1,0,1.287
@@ -233,9 +232,9 @@ EllebedyVaccineCohort,Fluarix_397-018_d121,A/SouthSudan/631/2023_H3N2,plate5-TTA
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/SOUTHAFRICA/R07876/202023_H3N2,plate5-AGACTGTACGCGACAG,344.8,interpolated,midpoint,344.9,344.8,0.9997,0,4.413
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/SOUTHAFRICA/R07876/202023_H3N2,plate5-CTACTAGAGCAGCGAG,304.7,interpolated,midpoint,308,304.7,0.9498,0,10
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/SOUTHAFRICA/R07876/202023_H3N2,plate5-TGATTCGTCAATTCAT,335.4,interpolated,midpoint,344.4,335.4,0.9663,0,2.645
-EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_R142K_H1N1,plate5-AGAGCTAAAAAGAGGA,1796,interpolated,midpoint,1807,1796,0.9844,0,5.149
-EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_R142K_H1N1,plate5-AAGTTAAGAGAAAGTT,1872,interpolated,midpoint,1907,1872,0.9611,0,4.301
-EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_R142K_H1N1,plate5-AATCCGAAATTTATTC,1183,interpolated,midpoint,1212,1183,0.8912,0,10
+EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AGAGCTAAAAAGAGGA,1796,interpolated,midpoint,1807,1796,0.9844,0,5.149
+EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AAGTTAAGAGAAAGTT,1872,interpolated,midpoint,1907,1872,0.9611,0,4.301
+EllebedyVaccineCohort,Fluarix_397-018_d121,A/Victoria/4897/2022_IVR-238_H1N1,plate5-AATCCGAAATTTATTC,1183,interpolated,midpoint,1212,1183,0.8912,0,10
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/HongKong/4801/2014egg_H3N2,plate5-ATTTACTCATTATACG,7873,interpolated,midpoint,7873,7873,1,0,10
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/HongKong/4801/2014egg_H3N2,plate5-CACAGACAATAAAAAA,7066,interpolated,midpoint,1.397e+04,7066,0.634,0,1.932
 EllebedyVaccineCohort,Fluarix_397-018_d121,A/HongKong/4801/2014egg_H3N2,plate5-GGTTAACTTTGGAAGC,1.023e+04,interpolated,midpoint,1.032e+04,1.023e+04,0.9896,0,2.455

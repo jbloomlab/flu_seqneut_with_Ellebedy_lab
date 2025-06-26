@@ -1,0 +1,87 @@
+wells:
+  F2: avg_barcode_counts_per_well
+  H12: avg_barcode_counts_per_well
+barcodes:
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCCGCCACTATAACAT: min_neut_standard_frac_per_well
+  TTGAAAGCCACAACAC: min_neut_standard_frac_per_well
+barcode_wells:
+  CCAATCCCAGCCTTTA H4: min_no_serum_count_per_viral_barcode_well
+  CCAATCCCAGCCTTTA H9: min_no_serum_count_per_viral_barcode_well
+  TTGCAATTGAAACATA A7: max_frac_infectivity_per_viral_barcode_well
+  TACCTAACGTCCAACT A7: max_frac_infectivity_per_viral_barcode_well
+  AAGATTACCAAATTAT B1: max_frac_infectivity_per_viral_barcode_well
+  ATCTAATAATTATGGT B1: max_frac_infectivity_per_viral_barcode_well
+  GTCATATTCGATTACA B2: max_frac_infectivity_per_viral_barcode_well
+  ACTAAAGGCATAGTAG B3: max_frac_infectivity_per_viral_barcode_well
+  AAGATTACCAAATTAT B3: max_frac_infectivity_per_viral_barcode_well
+  AGTCCTATCCTCAAAT B3: max_frac_infectivity_per_viral_barcode_well
+  ATCTAATAATTATGGT B3: max_frac_infectivity_per_viral_barcode_well
+  ATCGAAAAAACTGCAA B4: max_frac_infectivity_per_viral_barcode_well
+  ATTAGATTATAACGTA B6: max_frac_infectivity_per_viral_barcode_well
+  ATCGAAAAAACTGCAA B7: max_frac_infectivity_per_viral_barcode_well
+  TCGATGGAAGACATCT B7: max_frac_infectivity_per_viral_barcode_well
+  ATTAGATTATAACGTA B7: max_frac_infectivity_per_viral_barcode_well
+  CTGCATAAAAGCTCCC B7: max_frac_infectivity_per_viral_barcode_well
+  GACAGAAACAAAATTA B7: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA B7: max_frac_infectivity_per_viral_barcode_well
+  ATACTCTGTGCTTTAA B7: max_frac_infectivity_per_viral_barcode_well
+  TACCTAACGTCCAACT B7: max_frac_infectivity_per_viral_barcode_well
+  AACCCATGACATGCAA B9: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA B9: max_frac_infectivity_per_viral_barcode_well
+  ATACTCTGTGCTTTAA B9: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC B9: max_frac_infectivity_per_viral_barcode_well
+  AGTTGACAGAAATAGG B10: max_frac_infectivity_per_viral_barcode_well
+  TCGATGGAAGACATCT B10: max_frac_infectivity_per_viral_barcode_well
+  GAATAATAGAACAGAG B10: max_frac_infectivity_per_viral_barcode_well
+  AACCCATGACATGCAA B10: max_frac_infectivity_per_viral_barcode_well
+  TTCTCGGACAGTATCA B10: max_frac_infectivity_per_viral_barcode_well
+  AGTGCTATAAAAATCA B10: max_frac_infectivity_per_viral_barcode_well
+  AACCGTTAATAAATAA B10: max_frac_infectivity_per_viral_barcode_well
+  TACCTAACGTCCAACT B10: max_frac_infectivity_per_viral_barcode_well
+  AAGAAGCTATAGAAGT B10: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA B10: max_frac_infectivity_per_viral_barcode_well
+  AATCAAACATCCAGCG B10: max_frac_infectivity_per_viral_barcode_well
+  ATACTCTGTGCTTTAA B10: max_frac_infectivity_per_viral_barcode_well
+  GTAAAAATTTACAAAT B10: max_frac_infectivity_per_viral_barcode_well
+  AAACCTCGTGAGGACT B10: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC C1: max_frac_infectivity_per_viral_barcode_well
+  AGTCCTATCCTCAAAT C3: max_frac_infectivity_per_viral_barcode_well
+  TACTAGCAATAAAATC C5: max_frac_infectivity_per_viral_barcode_well
+  TAGTTGCCCCGACCTG C6: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA C8: max_frac_infectivity_per_viral_barcode_well
+  TACCTAACGTCCAACT C9: max_frac_infectivity_per_viral_barcode_well
+  TCCTTTAACTAATCGA C10: max_frac_infectivity_per_viral_barcode_well
+  GCATTATAATCTTGTG C11: max_frac_infectivity_per_viral_barcode_well
+  GCTGAAGACAGTATTA C11: max_frac_infectivity_per_viral_barcode_well
+  AACCCATGACATGCAA C11: max_frac_infectivity_per_viral_barcode_well
+  AAGAAGCTATAGAAGT C11: max_frac_infectivity_per_viral_barcode_well
+  AACGCAAAGAGAGCCA C11: max_frac_infectivity_per_viral_barcode_well
+  ATACTCTGTGCTTTAA C11: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT C12: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC D4: max_frac_infectivity_per_viral_barcode_well
+  CCTATAAGGCCTTACG D8: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT E5: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC F12: max_frac_infectivity_per_viral_barcode_well
+  AATCCGAAATTTATTC G2: max_frac_infectivity_per_viral_barcode_well
+  GAGCCCGAATAGCAAG G3: max_frac_infectivity_per_viral_barcode_well
+  CGGGAATCTCCCATAC G9: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC G12: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AGTCCTATCCTCAAAT Fluarix_397-002_d181: min_dilutions_per_barcode_serum_replicate
+  GTCATATTCGATTACA Fluarix_397-002_d29: min_dilutions_per_barcode_serum_replicate
+  AATCCGAAATTTATTC Fluarix_397-002_d29: min_dilutions_per_barcode_serum_replicate
+  TACCTAACGTCCAACT mRNA-1010_397-023_d0: min_dilutions_per_barcode_serum_replicate
+  AAACCTCGTGAGGACT Fluarix_397-001_d0: goodness_of_fit
+  CACCGACCAACTCTCT Fluarix_397-001_d0: goodness_of_fit
+  CTCATTACAGAAATTG Fluarix_397-001_d0: goodness_of_fit
+  TCGATTACTAGCCGGA Fluarix_397-001_d0: goodness_of_fit
+  CAAGACAAGCCCTATA Fluarix_397-001_d181: goodness_of_fit
+  TTAGCAGTTAACGTAT Fluarix_397-001_d181: goodness_of_fit
+  AATTACGCATAGGCCA Fluarix_397-002_d0: goodness_of_fit
+  CCCGCTAACCCTGTCT Fluarix_397-002_d0: goodness_of_fit
+  CTACTAGAGCAGCGAG Fluarix_397-002_d181: goodness_of_fit
+  ATCGAAAAAACTGCAA mRNA-1010_397-023_d121: goodness_of_fit
+  CTATCTTAATCTACAG mRNA-1010_397-023_d121: goodness_of_fit
+serum_replicates: {}

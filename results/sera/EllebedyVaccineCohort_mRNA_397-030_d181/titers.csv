@@ -90,8 +90,7 @@ EllebedyVaccineCohort,mRNA_397-030_d181,A/Thailand/8/2022_H3N2,505.4,interpolate
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Townsville/68/2023_H3N2,227.1,interpolated,19.47,3,midpoint
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Victoria/1033/2023_H3N2,277.4,interpolated,46.67,2,midpoint
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Victoria/1389/2023_H1N1,332.5,interpolated,22.92,3,midpoint
-EllebedyVaccineCohort,mRNA_397-030_d181,A/Victoria/2570/2019_H1N1,358.2,interpolated,,1,midpoint
-EllebedyVaccineCohort,mRNA_397-030_d181,A/Victoria/4897/2022_R142K_H1N1,1008,interpolated,65.25,3,midpoint
+EllebedyVaccineCohort,mRNA_397-030_d181,A/Victoria/4897/2022_IVR-238_H1N1,1008,interpolated,65.25,3,midpoint
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Wisconsin/27/2023_H3N2,306.8,interpolated,67.15,2,midpoint
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Wisconsin/588/2019_H1N1,912.9,interpolated,61.83,3,midpoint
 EllebedyVaccineCohort,mRNA_397-030_d181,A/Wisconsin/67/2022_H1N1,313.2,interpolated,2.435,2,midpoint

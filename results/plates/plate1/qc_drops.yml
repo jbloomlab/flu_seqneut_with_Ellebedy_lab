@@ -2,12 +2,10 @@ wells:
   F1: avg_barcode_counts_per_well
   G5: avg_barcode_counts_per_well
 barcodes:
-  CATAATCTATTGAAGC: min_neut_standard_frac_per_well
   CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
   CCCGCTAACCCTGTCT: min_neut_standard_frac_per_well
   CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
   CCTATAAGGCCTTACG: min_neut_standard_frac_per_well
-  TATGATGTCAGATAAA: min_neut_standard_frac_per_well
   TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
   TCCGCCACTATAACAT: min_neut_standard_frac_per_well
   TTGAAAGCCACAACAC: min_neut_standard_frac_per_well
@@ -21,6 +19,6 @@ barcode_wells:
 barcode_serum_replicates:
   CTCATTACAGAAATTG Fluarix_397-009_d0: min_dilutions_per_barcode_serum_replicate
   GTAAAAATTTACAAAT Fluarix_397-009_d0: goodness_of_fit
-  AAACCTCGTGAGGACT mRNA_397-010_d0: goodness_of_fit
-  TGACAAACACCTGAGG mRNA_397-010_d29: goodness_of_fit
+  AAACCTCGTGAGGACT mRNA-1010_397-010_d0: goodness_of_fit
+  TGACAAACACCTGAGG mRNA-1010_397-010_d29: goodness_of_fit
 serum_replicates: {}

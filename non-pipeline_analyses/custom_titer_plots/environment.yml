@@ -1,0 +1,17 @@
+name: custom_titer_plots
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.2
+  - jupyterlab
+  - mamba
+  - markdown=3.6
+  - matplotlib
+  - pandas=2.2
+  - pip
+  - pyarrow
+  - scikit-learn
+  - vl-convert-python
