@@ -158,22 +158,22 @@ plates:
       upstream2: ATCGAT # Fwd2
       upstream2_mismatch: 1 
 
-  plate6:
-    group: EllebedyVaccineCohort
-    date: 2025-06-25
-    viral_library: H3_H1_ellebedy_library
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-06-25_plate2.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1 
+  # plate6:
+  #   group: EllebedyVaccineCohort
+  #   date: 2025-06-25
+  #   viral_library: H3_H1_ellebedy_library
+  #   neut_standard_set: loes2023
+  #   samples_csv: data/plates/2025-06-25_plate2.csv
+  #   manual_drops: {}
+  #   qc_thresholds:
+  #     <<: *default_process_plate_qc_thresholds
+  #   curvefit_params:
+  #     <<: *default_process_plate_curvefit_params
+  #   curvefit_qc:
+  #     <<: *default_process_plate_curvefit_qc
+  #   illumina_barcode_parser_params:
+  #     upstream2: GCTACA # Fwd1
+  #     upstream2_mismatch: 1 
 
   plate7:
     group: EllebedyVaccineCohort

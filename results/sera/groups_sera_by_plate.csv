@@ -11,9 +11,9 @@ EllebedyVaccineCohort,Fluarix_397-005_d29,plate8
 EllebedyVaccineCohort,Fluarix_397-007_d0,plate9
 EllebedyVaccineCohort,Fluarix_397-007_d121,plate9
 EllebedyVaccineCohort,Fluarix_397-007_d29,plate9
-EllebedyVaccineCohort,Fluarix_397-009_d0,plate1;plate6
-EllebedyVaccineCohort,Fluarix_397-009_d121,plate1;plate6
-EllebedyVaccineCohort,Fluarix_397-009_d29,plate1;plate6
+EllebedyVaccineCohort,Fluarix_397-009_d0,plate1
+EllebedyVaccineCohort,Fluarix_397-009_d121,plate1
+EllebedyVaccineCohort,Fluarix_397-009_d29,plate1
 EllebedyVaccineCohort,Fluarix_397-011_d0,plate7
 EllebedyVaccineCohort,Fluarix_397-011_d121,plate7
 EllebedyVaccineCohort,Fluarix_397-011_d29,plate7
@@ -23,9 +23,6 @@ EllebedyVaccineCohort,Fluarix_397-016_d29,plate7
 EllebedyVaccineCohort,Fluarix_397-018_d0,plate5
 EllebedyVaccineCohort,Fluarix_397-018_d121,plate5
 EllebedyVaccineCohort,Fluarix_397-018_d29,plate5
-EllebedyVaccineCohort,Fluarix_397-019_d0,plate6
-EllebedyVaccineCohort,Fluarix_397-019_d181,plate6
-EllebedyVaccineCohort,Fluarix_397-019_d29,plate6
 EllebedyVaccineCohort,Fluarix_397-020_d0,plate5
 EllebedyVaccineCohort,Fluarix_397-020_d181,plate5
 EllebedyVaccineCohort,Fluarix_397-020_d29,plate5
@@ -35,9 +32,9 @@ EllebedyVaccineCohort,Fluarix_397-022_d29,plate4
 EllebedyVaccineCohort,Fluarix_397-024_d0,plate9
 EllebedyVaccineCohort,Fluarix_397-024_d181,plate9
 EllebedyVaccineCohort,Fluarix_397-024_d29,plate9
-EllebedyVaccineCohort,Fluarix_397-026_d0,plate1;plate6
-EllebedyVaccineCohort,Fluarix_397-026_d181,plate1;plate6
-EllebedyVaccineCohort,Fluarix_397-026_d29,plate1;plate6
+EllebedyVaccineCohort,Fluarix_397-026_d0,plate1
+EllebedyVaccineCohort,Fluarix_397-026_d181,plate1
+EllebedyVaccineCohort,Fluarix_397-026_d29,plate1
 EllebedyVaccineCohort,Fluarix_397-027_d0,plate8
 EllebedyVaccineCohort,Fluarix_397-027_d181,plate8
 EllebedyVaccineCohort,Fluarix_397-027_d29,plate8
@@ -56,9 +53,6 @@ EllebedyVaccineCohort,mRNA-1010_397-008_d29,plate5
 EllebedyVaccineCohort,mRNA-1010_397-010_d0,plate1
 EllebedyVaccineCohort,mRNA-1010_397-010_d121,plate1
 EllebedyVaccineCohort,mRNA-1010_397-010_d29,plate1
-EllebedyVaccineCohort,mRNA-1010_397-014_d0,plate6
-EllebedyVaccineCohort,mRNA-1010_397-014_d181,plate6
-EllebedyVaccineCohort,mRNA-1010_397-014_d29,plate6
 EllebedyVaccineCohort,mRNA-1010_397-015_d0,plate7
 EllebedyVaccineCohort,mRNA-1010_397-015_d181,plate7
 EllebedyVaccineCohort,mRNA-1010_397-015_d29,plate7
